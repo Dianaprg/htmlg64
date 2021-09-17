@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tienda Genérica</title>
+	<link rel="stylesheet" type="text/css" href="estiloproveedores.css">
+	<style type="text/css">
+        h1{
+            background: gray;
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+	<h1 style="color: black;">Tienda Genérica</h1>
+	<ul class="menu">
+		<li><a href="usuarios.html">Usuarios</a></li>
+        <li><a href="clientes.html">Clientes</a></li>
+        <li><a href="proveedores.html">Proveedores</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="ventas.html">Ventas</a></li>
+        <li><a href="reportes.html">Reportes</a></li>
+
+	</ul>
+	<form action="productos.html" method="POST">
+		<div class="campos">
+            <label>Nombre del archivo</label>
+            <input type="text" name=""size="20" maxlength="12">
+        </div>
+        <div id="botones">
+            <input type="file" name="archivossubidos[]" multiple>
+            <input type="submit" value="Cargar">
+
+        </div>
+	</form>
+
+</body>
+</html>
